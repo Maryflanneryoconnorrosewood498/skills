@@ -1,6 +1,6 @@
 ---
 name: panews
-description: Query the public PANews API for the currently bundled read-only workflows: article search, listings, rankings, and daily must-reads.
+description: Query the public PANews API for the currently bundled read-only workflows, article search, listings, rankings, and daily must-reads.
 metadata:
   author: Seven Du
   version: "2026.03.16"
@@ -72,8 +72,8 @@ node {Skills Directory}/panews/scripts/get-rankings.mjs [--weekly] [--lang zh]
 
 ## References
 
-| Topic | Description | Reference |
-| ----- | ----------- | --------- |
-| Workflows | Task routing, defaults, and empty-result handling | [workflows](references/workflows.md) |
-| Articles | Search, list, detail, related articles, and rankings | [articles](references/articles.md) |
-| Content | Daily must-reads plus reference-only notes for adjacent public endpoints | [content](references/content.md) |
+| Topic     | Description                                                              | Reference                            |
+| --------- | ------------------------------------------------------------------------ | ------------------------------------ |
+| Workflows | Task routing, defaults, and empty-result handling                        | [workflows](references/workflows.md) |
+| Articles  | Search, list, detail, related articles, and rankings                     | [articles](references/articles.md)   |
+| Content   | Daily must-reads plus reference-only notes for adjacent public endpoints | [content](references/content.md)     |
