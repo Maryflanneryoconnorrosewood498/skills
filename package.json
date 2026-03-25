@@ -1,21 +1,6 @@
 {
-  "name": "@panews/agent-plugin",
-  "version": "0.1.0",
-  "description": "PANews Agent Toolkit for crypto news discovery, creator workflows, and PANews page reading.",
+  "private": true,
   "type": "module",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/panewslab/skills.git"
-  },
-  "homepage": "https://github.com/panewslab/skills",
-  "files": [
-    "skills",
-    ".claude-plugin",
-    ".codex-plugin",
-    "README.md",
-    "LICENSE"
-  ],
   "scripts": {
     "build": "tsdown",
     "build:panews": "tsdown --config tsdown.config.ts --filter panews",
