@@ -21,7 +21,13 @@
   "openclaw": {
     "extensions": [
       "./dist/openclaw.mjs"
-    ]
+    ],
+    "compat": {
+      "pluginApi": "^1.2.0"
+    },
+    "build": {
+      "openclawVersion": "2026.3.23-2"
+    }
   },
   "scripts": {
     "build": "tsdown",
