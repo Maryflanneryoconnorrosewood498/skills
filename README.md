@@ -30,7 +30,6 @@ Plugin manifests:
 
 - Codex: [.codex-plugin/plugin.json](.codex-plugin/plugin.json)
 - Claude Code: [.claude-plugin/plugin.json](.claude-plugin/plugin.json)
-- OpenClaw: [openclaw.plugin.json](openclaw.plugin.json)
 
 Canonical plugin content:
 
@@ -48,11 +47,7 @@ For Claude Code, the typical flow is:
 
 For Codex-style plugin hosts, point the host at this repository root so it can read [.codex-plugin/plugin.json](.codex-plugin/plugin.json) and the bundled [skills/](skills/).
 
-For OpenClaw:
-
-```bash
-openclaw plugins install @panews/agent-plugin
-```
+OpenClaw compatibility is provided through the Codex- and Claude-compatible bundle layout in this repository, not through a native OpenClaw plugin manifest.
 
 ## Skills
 

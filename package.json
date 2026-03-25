@@ -10,25 +10,12 @@
   },
   "homepage": "https://github.com/panewslab/skills",
   "files": [
-    "src/openclaw.ts",
     "skills",
     ".claude-plugin",
     ".codex-plugin",
-    "openclaw.plugin.json",
     "README.md",
     "LICENSE"
   ],
-  "openclaw": {
-    "extensions": [
-      "./src/openclaw.ts"
-    ],
-    "compat": {
-      "pluginApi": "^1.2.0"
-    },
-    "build": {
-      "openclawVersion": "2026.3.23-2"
-    }
-  },
   "scripts": {
     "build": "tsdown",
     "build:panews": "tsdown --config tsdown.config.ts --filter panews",
