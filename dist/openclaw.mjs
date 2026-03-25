@@ -1,0 +1,1 @@
+var e={id:`panews`,name:`PANews Agent Toolkit`,configSchema:{type:`object`,additionalProperties:!1,properties:{}},register(){}};export{e as default};
