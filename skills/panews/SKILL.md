@@ -59,7 +59,7 @@ All CLI commands support `--lang`, accepting standard locale strings (e.g. `zh`,
 - `scripts/cli.mjs`: unified entrypoint for PANews reader commands
 - Runtime behavior: this script makes outbound HTTPS requests to `https://universal-api.panewslab.com` to fetch PANews content and metadata.
 - Local access: this script does not require creator credentials and does not read local files unless the caller explicitly passes a local path to a command that supports one.
-- Audit note: `scripts/cli.mjs` is a generated bundle built from the TypeScript sources in `src/`.
+- Source code: review [../../src/panews.ts](../../src/panews.ts), [../../src/commands](../../src/commands), and [../../src/utils](../../src/utils) in this repository. `scripts/cli.mjs` is the generated bundle built from those sources.
 
 ```bash
 node {Skills Directory}/panews/scripts/cli.mjs <command> [options]
